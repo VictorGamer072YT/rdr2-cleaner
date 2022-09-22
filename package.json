@@ -1,22 +1,22 @@
 {
-  "name": "gta5-cleaner",
+  "name": "rdr2-cleaner",
   "version": "1.1.0",
-  "description": "A tool to clean out mods from Grand Theft Auto 5 for online play, and restore them later.",
+  "description": "A tool to clean out mods from Red Dead Redemption 2 for online play, and restore them later.",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ganeshh123/gta5-cleaner.git"
+    "url": "git+https://github.com/VictorGamer072YT/rdr2-cleaner.git"
   },
   "author": {
-    "name": "Ganesh H",
-    "url": "https://ganeshh123.github.io"
+    "name": "Ganesh H, modified by Victor",
+    "url": "https://VictorGamer072YT.github.io"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ganeshh123/gta5-cleaner/issues"
+    "url": "https://github.com/VictorGamer072YT/rdr2-cleaner/issues"
   },
-  "homepage": "https://github.com/ganeshh123/gta5-cleaner#readme"
+  "homepage": "https://github.com/VictorGamer072YT/rdr2-cleaner#readme"
 }

@@ -1,20 +1,20 @@
-# GTA 5 Cleaner
-A tool to clean out mods from Grand Theft Auto 5 for online play, and restore them later.
+# RDR 2 Cleaner
+A tool to clean out mods from Red Dead Redemption 2 for online play, and restore them later.
 
 ## Download
 
-Get the latest version from the [Releases](https://github.com/ganeshh123/gta5-cleaner/releases/latest) page.
+Get the latest version from the [Releases](https://github.com/VictorGamer072YT/rdr2-cleaner/releases/latest) page.
 
-[Download for Windows](https://github.com/ganeshh123/gta5-cleaner/releases/download/1.2.0/gta5cleaner_1.2.0.zip)
+[Download for Windows](https://github.com/ganeshh123/rdr2-VictorGamer072YT/releases/download/1.0.0/rdr2cleaner_1.0.0.zip)
 
 ## Usage
-1. Download and extract 'gta5cleaner.exe' to the root 'Grand Theft Auto V' folder (same place as GTAV.exe)
+1. Download and extract 'rdr2cleaner.exe' to the root 'Red Dead Redemption 2' folder (same place as RDR2.exe)
 
-2. Double Click and run 'gta5cleaner.exe'
+2. Double Click and run 'rdr2cleaner.exe'
 
 3. Enter your choice. Either 'clean' or 'restore'
 
-  'clean' : Cleans your GTA 5 Installation of mods leaving you with the Base Game for Online Play
+  'clean' : Cleans your RDR 2 Installation of mods leaving you with the Base Game for Online Play
   
   'restore': Restores cleaned mods for Single Player
 
@@ -29,9 +29,9 @@ Get the latest version from the [Releases](https://github.com/ganeshh123/gta5-cl
 
 ## Building
 ### Running on Node
-1. Clone/Download the project and copy app.js and essentialFiles.js into the GTA 5 Installation root directory.
+1. Clone/Download the project and copy app.js and essentialFiles.js into the RDR 2 Installation root directory.
 
-2. Open Command Prompt inside the GTA V Installation root directory and run ```node app.js```
+2. Open Command Prompt inside the RDR 2 Installation root directory and run ```node app.js```
 
 
 ### Compiling a Windows Executable
@@ -82,9 +82,11 @@ To Compile Manually
 
 To build a Windows Executable, run the command:
 ```bash
-nexe . --target win32-x86-10.13.0 -o ./dist/gta5cleaner.exe
+nexe . --target win32-x86-10.13.0 -o ./dist/rdr2cleaner.exe
 ```
 in the root directory of the project.
 
 ## Credits
-Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>.
+<br>
+GTA 5 Cleaner by <a href="https://github.com/ganeshh123" title="Ganesh H">Ganesh H</a> from <a href="https://http://ganeshh123.github.io/" title="ganeshh123"> http://ganeshh123.github.io/</a>.

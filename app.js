@@ -57,8 +57,8 @@ const cleanMods = (filePath) => {
     }else{
         console.log(`Some files could not be moved, please check the errors above.`)
         console.log(`Please try the following:`)
-        console.log(`- Ensure GTA V, Rockstar Launcher and Mod Managers are quit completely`)
-        console.log(`- Run "gta5cleaner" as an Adminstrator`)
+        console.log(`- Ensure RDR 2, Rockstar Launcher and Mod Managers are quit completely`)
+        console.log(`- Run "rdr2cleaner" as an Adminstrator`)
         console.log(`- Move the files above into the modstore folder yourself`)
     }
 }
@@ -91,14 +91,14 @@ const restoreMods = (filePath) => {
         })
 
         if(errors.length === 0){
-            console.log('\nRestored Mods to GTA V!')
+            console.log('\nRestored Mods to RDR 2!')
             fileSystem.rmdirSync(filePathMods)
         }else{
             console.log(`Some files could not be restored, please check the errors above.`)
             console.log(`Please try the following:`)
-            console.log(`- Ensure that GTA V is quit completely`)
-            console.log(`- Run "gta5cleaner" as an Adminstrator`)
-            console.log(`- Copy the contents of the modstore folder into your GTA V main directory`)
+            console.log(`- Ensure that RDR 2 is quit completely`)
+            console.log(`- Run "rdr2cleaner" as an Adminstrator`)
+            console.log(`- Copy the contents of the modstore folder into your RDR 2 main directory`)
         }
 
 
@@ -107,9 +107,9 @@ const restoreMods = (filePath) => {
     }
 }
 
-const isValidGTA5Folder = (filePath) => {
+const isValidRDR2Folder = (filePath) => {
     const directoryFiles = fileSystem.readdirSync(filePath)
-    const required = ['GTA5.exe', 'x64']
+    const required = ['RDR2.exe', 'x64']
     for(const file of required){
         if(directoryFiles.includes(file) === false){
             return false
@@ -137,18 +137,18 @@ const terminate = () => {
 }
 
 const main = () => {
-    console.log('\nGTA V Mod Cleaner')
+    console.log('\nRDR 2 Mod Cleaner')
 
-    if(isValidGTA5Folder(process.cwd()) === false){
-        console.log(`\nPlease place "gta5cleaner.exe" inside your GTA 5 install folder and try again.`)
+    if(isValidRDR2Folder(process.cwd()) === false){
+        console.log(`\nPlease place "rdr2cleaner.exe" inside your RDR 2 install folder and try again.`)
         return terminate()
     }
 
 
-    console.log('\nWould you like to "clean" mods from GTA V for GTA Online, or "restore" mods for Single Player?')
+    console.log('\nWould you like to "clean" mods from RDR 2 for Red Dead Online, or "restore" mods for Single Player?')
     console.log('\nType "clean" to clean mods and press Enter')
     console.log('Type "restore" to restore mods and press Enter')
-    terminal.question('\nYour Choice : ', (choice) => {
+    terminal.question('\nYour Choice: ', (choice) => {
 
         terminal.close();
 
