@@ -3,9 +3,11 @@ A tool to clean out mods from Red Dead Redemption 2 for online play, and restore
 
 ## Download
 
-Get the latest version from the [Releases](https://github.com/VictorGamer072YT/rdr2-cleaner/releases/latest) page.
+~~Get the latest version from the [Releases](https://github.com/VictorGamer072YT/rdr2-cleaner/releases/latest) page.~~
 
-[Download for Windows](https://github.com/ganeshh123/rdr2-VictorGamer072YT/releases/download/1.0.0/rdr2cleaner_1.0.0.zip)
+~~[Download for Windows](https://github.com/ganeshh123/rdr2-VictorGamer072YT/releases/download/1.0.0/rdr2cleaner_1.0.0.zip)~~
+
+Not currently available, I couldn't get the exe to compile. Follow the **Running on Node** instructions instead. 
 
 ## Usage
 1. Download and extract 'rdr2cleaner.exe' to the root 'Red Dead Redemption 2' folder (same place as RDR2.exe)
