@@ -1,6 +1,8 @@
 # RDR 2 Cleaner
 A tool to clean out mods from Red Dead Redemption 2 for online play, and restore them later.
 
+**Note:** You will need to **take ownership** of the RDR2 folder *if* you own it on the Rockstar Launcher.
+
 ## Download
 
 ~~Get the latest version from the [Releases](https://github.com/VictorGamer072YT/rdr2-cleaner/releases/latest) page.~~
