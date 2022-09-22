@@ -19,6 +19,7 @@ module.exports = [
     '12on7',
     'Redistributables',
     'x64',
+    'amd_ags_x64.dll',
     'anim_0.rpf',
     'appdata0_update.rpf',
     'bink2w64.dll',
