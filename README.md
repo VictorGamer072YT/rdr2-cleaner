@@ -87,6 +87,4 @@ nexe . --target win32-x86-10.13.0 -o ./dist/rdr2cleaner.exe
 in the root directory of the project.
 
 ## Credits
-Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>.
-<br>
 GTA 5 Cleaner by <a href="https://github.com/ganeshh123" title="Ganesh H">Ganesh H</a> from <a href="https://http://ganeshh123.github.io/" title="ganeshh123"> http://ganeshh123.github.io/</a>.
