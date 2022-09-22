@@ -1,6 +1,6 @@
 {
   "name": "rdr2-cleaner",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "description": "A tool to clean out mods from Red Dead Redemption 2 for online play, and restore them later.",
   "main": "app.js",
   "scripts": {
