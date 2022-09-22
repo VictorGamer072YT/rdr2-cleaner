@@ -22,7 +22,7 @@ Not currently available, I couldn't get the exe to compile. Follow the **Running
   
   'restore': Restores cleaned mods for Single Player
 
-  ![usage](docs/usage.png)
+  ![usage_rdr](docs/usage_rdr.png)
   
 4. Once the process is completed, press any key to exit the tool and open the game normally
 
