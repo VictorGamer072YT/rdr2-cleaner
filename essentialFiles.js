@@ -12,8 +12,6 @@ module.exports = [
     'EOSSDK-Win64-Shipping.dll',
     // RDR 2 Cleaner
     'rdr2cleaner.exe',
-    'app.js',
-    'essentialFiles.js',
     'modstore',
     // Main Game Files
     '12on7',
